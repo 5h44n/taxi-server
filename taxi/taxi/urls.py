@@ -1,7 +1,7 @@
 # taxi/urls.py
 
 from django.contrib import admin
-from django.urls import include, path # new
+from django.urls import include, path
 from rest_framework_simplejwt.views import TokenRefreshView
 
 from trips.views import SignUpView, LogInView
