@@ -308,7 +308,7 @@ class TestWebSocket:
                 'id': trip_id,
                 'pick_up_address': trip.pick_up_address,
                 'drop_off_address': trip.drop_off_address,
-                'status': Trip.IN_PROGRESS,
+                'status': Trip.STARTED,
                 'driver': driver.id,
             },
         }
